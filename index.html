@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiVision Pro - Verres Médicaux & Lunettes de Correction</title>
+    <link rel="stylesheet" href="css/style .css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-glasses"></i>
+                    <span>OptiVision Pro</span>
+                </div>
+                <nav class="nav-menu" id="navMenu">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                    <a href="#produits" class="nav-link">Produits</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#apropos" class="nav-link">À propos</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="cta-button" onclick="scrollToContact()">Demander un devis</button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">La précision médicale au service de votre vision</h1>
+                <p class="hero-subtitle">Des verres sur mesure conçus avec expertise pour votre confort visuel optimal</p>
+                <button class="hero-cta" onclick="document.getElementById('produits').scrollIntoView({behavior: 'smooth'})">
+                    Découvrir nos verres
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <img src="https://image.pollinations.ai/prompt/professional%20medical%20glasses%20closeup%20on%20clean%20white%20background%20modern%20optical%20precision?safe=true&nologo=true&width=1200&height=800&seed=42" alt="Lunettes médicales professionnelles">
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
